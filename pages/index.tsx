@@ -10,17 +10,6 @@ import Carousel from 'react-multi-carousel'
 import 'react-multi-carousel/lib/styles.css'
 import { getTestimonial, getHelpTips } from "../actions/action";
 
-const CustomRightArrow = ({ onClick }: any) => {
-  // const {
-  //   onMove,
-  //   carouselState: { currentSlide, deviceType }
-  // } = rest;
-  // onMove means if dragging or swiping in progress.
-  return <IconButton aria-label="arrow" size="large" color='info' onClick={() => onClick()} sx={{ backgroundColor: '#FFFFFF' }}>
-    <ArrowForward fontSize="inherit" />
-  </IconButton>;
-};
-
 const Home: NextPage = () => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.up("sm"));
