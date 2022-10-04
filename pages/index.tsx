@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css'
 import React, { useEffect } from "react"
 import { useQuery } from "@tanstack/react-query"
 import ArrowForward from '@mui/icons-material/ArrowForward'
-import { AppBar, Avatar, Box, Button, ButtonProps, Card, CardContent, Container, Chip, IconButton, ImageListItem, ImageListItemBar, Stack, Skeleton, Toolbar, Typography, styled, useMediaQuery, useTheme } from '@mui/material'
+import { AppBar, Avatar, Box, Button, Card, CardContent, Container, Chip, IconButton, ImageListItem, ImageListItemBar, Stack, Skeleton, Toolbar, Typography, useMediaQuery, useTheme } from '@mui/material'
 import Carousel from 'react-multi-carousel'
 import 'react-multi-carousel/lib/styles.css'
 import { getTestimonial, getHelpTips } from "../actions/action";
